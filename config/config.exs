@@ -10,7 +10,7 @@ use Mix.Config
 
 # You can configure for your application as:
 #
-#     config :gen_tcp, key: :value
+config :gen_tcp, ip: {127,0,0,1}, port: 6666
 #
 # And access this configuration in your application as:
 #
